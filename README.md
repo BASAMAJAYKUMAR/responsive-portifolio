@@ -1,0 +1,9 @@
+<img width="1439" alt="Screenshot 2024-02-09 at 8 32 00 AM" src="https://github.com/BASAMAJAYKUMAR/responsive-portifolio/assets/143103108/d73fa6ec-9bbe-4fb0-af91-ad75c7b37e16">
+<img width="1424" alt="Screenshot 2024-02-09 at 8 32 31 AM" src="https://github.com/BASAMAJAYKUMAR/responsive-portifolio/assets/143103108/e31657f7-b9ee-4990-b5e5-d5ea625b97a0">
+<img width="1434" alt="Screenshot 2024-02-09 at 8 32 56 AM" src="https://github.com/BASAMAJAYKUMAR/responsive-portifolio/assets/143103108/8c4de850-2606-4788-94f9-2e164eb9ff30">
+<img width="1438" alt="Screenshot 2024-02-09 at 8 33 27 AM" src="https://github.com/BASAMAJAYKUMAR/responsive-portifolio/assets/143103108/d04145ef-5766-46a9-9f18-9d781abd2f08">
+<img width="324" alt="Screenshot 2024-02-09 at 8 38 39 AM" src="https://github.com/BASAMAJAYKUMAR/responsive-portifolio/assets/143103108/b1fed345-f690-40c4-95e7-219f167af463">
+<img width="337" alt="Screenshot 2024-02-09 at 8 34 19 AM" src="https://github.com/BASAMAJAYKUMAR/responsive-portifolio/assets/143103108/74ac3e51-3e9b-4bde-9059-6b95f0cb29b9">
+<img width="319" alt="Screenshot 2024-02-09 at 8 41 05 AM" src="https://github.com/BASAMAJAYKUMAR/responsive-portifolio/assets/143103108/005a107d-1814-4dda-86cc-46d9fc6d87d3">
+<img width="327" alt="Screenshot 2024-02-09 at 8 41 42 AM" src="https://github.com/BASAMAJAYKUMAR/responsive-portifolio/assets/143103108/aae00ffa-7e91-4491-ad60-1c495eee0428">
+<img width="325" alt="Screenshot 2024-02-09 at 8 35 13 AM" src="https://github.com/BASAMAJAYKUMAR/responsive-portifolio/assets/143103108/dae167c1-f4f6-4c59-8ec3-14b63094d2c3">
