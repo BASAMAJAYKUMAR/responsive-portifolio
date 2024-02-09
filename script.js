@@ -2,9 +2,7 @@
 
 
 
-/**
- * add event listener on multiple elements
- */
+
 
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
@@ -14,9 +12,6 @@ const addEventOnElements = function (elements, eventType, callback) {
 
 
 
-/**
- * NAVBAR TOGGLE FOR MOBILE
- */
 
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
@@ -32,10 +27,6 @@ addEventOnElements(navTogglers, "click", toggleNavbar);
 
 
 
-/**
- * HEADER
- * active header when window scroll down to 100px
- */
 
 const header = document.querySelector("[data-header]");
 
@@ -49,9 +40,7 @@ window.addEventListener("scroll", function () {
 
 
 
-/**
- * SCROLL REVEAL
- */
+
 
 const revealElements = document.querySelectorAll("[data-reveal]");
 const revealDelayElements = document.querySelectorAll("[data-reveal-delay]");
