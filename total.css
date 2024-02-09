@@ -1,9 +1,7 @@
 
 :root {
 
-    /**
-     * colors
-     */
+  
   
     --white: hsla(0, 0%, 100%, 1);
     --white_a8: hsla(0, 0%, 100%, 0.08);
@@ -19,9 +17,7 @@
     --gunmetal: hsla(214, 15%, 21%, 1);
     --charcoal: hsla(219, 22%, 26%, 1);
   
-    /**
-     * typography
-     */
+   
   
     --ff-manrope: 'Manrope', sans-serif;
   
@@ -36,32 +32,22 @@
     
     --fw-700: 700;
   
-    /**
-     * spacing
-     */
+  
   
     --section-padding: 90px;
   
-    /**
-     * box shadow
-     */
   
     --shadow-1: 0 0 20px hsla(216, 14%, 14%, 0.05);
     --shadow-2: 0 4px 28px hsla(216, 14%, 14%, 0.07);
   
-    /**
-     * border radius
-     */
+
   
     --radius-circle: 50%;
     --radius-pill: 100px;
     --radius-8: 8px;
     --radius-6: 6px;
   
-    /**
-     * transition
-     */
-  
+   
     --transition-1: 0.25s ease;
     --transition-2: 0.5s ease;
     --transition-3: 0.3s ease-in-out;
@@ -72,10 +58,7 @@
   
   
   
-  /*-----------------------------------*\
-    #RESET
-  \*-----------------------------------*/
-  
+
   *,
   *::before,
   *::after {
@@ -139,12 +122,7 @@
   
   
   
-  
-  
-  /*-----------------------------------*\
-    #REUSED STYLE
-  \*-----------------------------------*/
-  
+ 
   .container { padding-inline: 16px; }
   
   .social-list {
@@ -229,12 +207,7 @@
   
   
   
-  
-  
-  /*-----------------------------------*\
-    #HEADER
-  \*-----------------------------------*/
-  
+
   .header {
     background-color: aqua;
     position: absolute;
@@ -342,11 +315,6 @@
   
   
   
-  
-  
-  /*-----------------------------------*\
-    #HERO
-  \*-----------------------------------*/
   .section {
     margin-top: 30px;
   }
@@ -400,9 +368,6 @@
   
   
   
-  /*-----------------------------------*\
-    #ABOUT
-  \*-----------------------------------*/
   
   .about .wrapper {
     display: grid;
@@ -442,9 +407,6 @@
  
   
   
-  /*-----------------------------------*\
-    #PROJECTS
-  \*-----------------------------------*/
   
   .project { border-block: 1px solid var(--cadet-blue-crayola_a20); }
   
@@ -495,10 +457,6 @@
   
   
   
-  
-  /*-----------------------------------*\
-    #CONTACT
-  \*-----------------------------------*/
   .section {
     margin-top: 100px;
   }
@@ -538,10 +496,6 @@
   
   
   
-  /*-----------------------------------*\
-    #FOOTER
-  \*-----------------------------------*/
-  
   .footer { padding-block: 40px; background-color: aqua;}
   
   .copyright { margin-block-end: 12px; }
@@ -552,19 +506,10 @@
   
   
   
-  /*-----------------------------------*\
-    #MEDIA QUERIES
-  \*-----------------------------------*/
-  
-  /**
-   * responsive for large than 575px screen
-   */
   
   @media (min-width: 575px) {
   
-    /**
-     * REUSED STYLE
-     */
+   
   
     .container {
       max-width: 540px;
@@ -573,18 +518,11 @@
     }
   
   
-  
-    /**
-     * PROJECT
-     */
-  
     .project-card { --padding: 68px; }
   
   
   
-    /**
-     * CONTACT
-     */
+   
   
     .contact-card { padding: 68px; }
   
@@ -594,15 +532,10 @@
   
   
   
-  /**
-   * responsive for large than 768px screen
-   */
+
   
   @media (min-width: 768px) {
   
-    /**
-     * REUSED STYLE
-     */
   
     .container { max-width: 720px; }
   
@@ -610,17 +543,11 @@
   
   
   
-    /**
-     * ABOUT
-     */
+    
   
     .about .grid-list { grid-template-columns: 1fr 1fr; }
   
   
-  
-    /**
-     * PROJECT
-     */
   
     .project .title-wrapper {
       display: flex;
@@ -633,9 +560,6 @@
   
   
   
-    /**
-     * CONTACT
-     */
   
     .contact .section-text { --fs-5: 1.8rem; }
   
@@ -647,9 +571,6 @@
   
   
   
-    /**
-     * FOOTER
-     */
   
     .footer .container {
       display: flex;
@@ -666,21 +587,13 @@
   
   
   
-  /**
-   * responsive for large than 992px screen
-   */
-  
   @media (min-width: 992px) {
   
-    /**
-     * CUSTOM PROPERTY
-     */
+   
   
     :root {
   
-      /**
-       * spacing
-       */
+      
   
       --section-padding: 120px;
   
@@ -688,17 +601,13 @@
   
   
   
-    /**
-     * REUSED STYLE
-     */
+    
   
     .container { max-width: 960px; }
   
   
   
-    /**
-     * HEADER
-     */
+   
   
     .nav-open-btn,
     .navbar-top,
@@ -748,9 +657,6 @@
   
   
   
-    /**
-     * HERO
-     */
   
     .hero { padding-block-start: calc(var(--section-padding) + 80px); }
   
