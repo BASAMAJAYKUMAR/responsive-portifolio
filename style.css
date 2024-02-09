@@ -19,9 +19,7 @@
     --gunmetal: hsla(214, 15%, 21%, 1);
     --charcoal: hsla(219, 22%, 26%, 1);
   
-    /**
-     * typography
-     */
+   
   
     --ff-manrope: 'Manrope', sans-serif;
   
@@ -36,31 +34,23 @@
     
     --fw-700: 700;
   
-    /**
-     * spacing
-     */
+   
   
     --section-padding: 90px;
   
-    /**
-     * box shadow
-     */
+    
   
     --shadow-1: 0 0 20px hsla(216, 14%, 14%, 0.05);
     --shadow-2: 0 4px 28px hsla(216, 14%, 14%, 0.07);
   
-    /**
-     * border radius
-     */
+  
   
     --radius-circle: 50%;
     --radius-pill: 100px;
     --radius-8: 8px;
     --radius-6: 6px;
   
-    /**
-     * transition
-     */
+   
   
     --transition-1: 0.25s ease;
     --transition-2: 0.5s ease;
@@ -72,10 +62,7 @@
   
   
   
-  /*-----------------------------------*\
-    #RESET
-  \*-----------------------------------*/
-  
+ 
   *,
   *::before,
   *::after {
@@ -141,10 +128,7 @@
   
   
   
-  /*-----------------------------------*\
-    #REUSED STYLE
-  \*-----------------------------------*/
-  
+ 
   .container { padding-inline: 16px; }
   
   .social-list {
@@ -230,11 +214,7 @@
   
   
   
-  
-  /*-----------------------------------*\
-    #HEADER
-  \*-----------------------------------*/
-  
+
   .header {
     position: absolute;
     
@@ -344,10 +324,6 @@
   
   
   
-  /*-----------------------------------*\
-    #HERO
-  \*-----------------------------------*/
-  
   .hero {
     padding-block-start: calc(var(--section-padding) + 50px);
     background-color: var(--cultured);
@@ -399,11 +375,7 @@
   
   
   
-  
-  /*-----------------------------------*\
-    #ABOUT
-  \*-----------------------------------*/
-  
+ 
   .about .wrapper {
     display: grid;
     gap: 50px;
@@ -441,11 +413,7 @@
   
   
   
-  
-  /*-----------------------------------*\
-    #PROJECTS
-  \*-----------------------------------*/
-  
+ 
   .project { border-block: 1px solid var(--cadet-blue-crayola_a20); }
   
   .project .title-wrapper { margin-block-end: 40px; }
@@ -495,11 +463,6 @@
   
   
   
-  
-  /*-----------------------------------*\
-    #CONTACT
-  \*-----------------------------------*/
-  
   .contact { padding-block-end: 0; }
   
   .contact-card {
@@ -533,12 +496,6 @@
   
   
   
-  
-  
-  /*-----------------------------------*\
-    #FOOTER
-  \*-----------------------------------*/
-  
   .footer { padding-block: 40px; background-color: aqua; }
   
   .copyright { margin-block-end: 12px; }
@@ -548,21 +505,8 @@
   
   
   
-  
-  /*-----------------------------------*\
-    #MEDIA QUERIES
-  \*-----------------------------------*/
-  
-  /**
-   * responsive for large than 575px screen
-   */
-  
   @media (min-width: 575px) {
-  
-    /**
-     * REUSED STYLE
-     */
-  
+ 
     .container {
       max-width: 540px;
       width: 100%;
@@ -571,17 +515,11 @@
   
   
   
-    /**
-     * PROJECT
-     */
-  
+   
     .project-card { --padding: 68px; }
   
   
-  
-    /**
-     * CONTACT
-     */
+ 
   
     .contact-card { padding: 68px; }
   
@@ -591,15 +529,9 @@
   
   
   
-  /**
-   * responsive for large than 768px screen
-   */
-  
+ 
   @media (min-width: 768px) {
   
-    /**
-     * REUSED STYLE
-     */
   
     .container { max-width: 720px; }
   
@@ -607,17 +539,9 @@
   
   
   
-    /**
-     * ABOUT
-     */
-  
     .about .grid-list { grid-template-columns: 1fr 1fr; }
   
   
-  
-    /**
-     * PROJECT
-     */
   
     .project .title-wrapper {
       display: flex;
@@ -629,10 +553,7 @@
     .project .btn { min-width: max-content; }
   
   
-  
-    /**
-     * CONTACT
-     */
+
   
     .contact .section-text { --fs-5: 1.8rem; }
   
@@ -642,11 +563,7 @@
       gap: 20px;
     }
   
-  
-  
-    /**
-     * FOOTER
-     */
+ 
   
     .footer .container {
       display: flex;
@@ -661,22 +578,14 @@
   
   
   
-  
-  /**
-   * responsive for large than 992px screen
-   */
+
   
   @media (min-width: 992px) {
   
-    /**
-     * CUSTOM PROPERTY
-     */
+  
   
     :root {
   
-      /**
-       * spacing
-       */
   
       --section-padding: 120px;
   
@@ -684,17 +593,12 @@
   
   
   
-    /**
-     * REUSED STYLE
-     */
+    
   
     .container { max-width: 960px; }
   
   
   
-    /**
-     * HEADER
-     */
   
     .nav-open-btn,
     .navbar-top,
@@ -744,10 +648,6 @@
   
   
   
-    /**
-     * HERO
-     */
-  
     .hero { padding-block-start: calc(var(--section-padding) + 80px); }
   
     .hero .container {
@@ -760,12 +660,7 @@
   
     .hero .btn-wrapper { justify-content: flex-start; }
   
-  
-  
-    /**
-     * ABOUT
-     */
-  
+
     .about .wrapper {
       grid-template-columns: 1fr 1fr;
       align-items: center;
@@ -774,11 +669,7 @@
     .about .grid-list { grid-template-columns: repeat(4, 1fr); }
   
   
-  
-    /**
-     * PROJECT
-     */
-  
+ 
     .project .grid-list {
       grid-template-columns: 1fr 1fr;
       row-gap: 50px;
@@ -802,9 +693,7 @@
   
   
   
-    /**
-     * CONTACT
-     */
+  
   
     .contact-card {
       grid-template-columns: 0.8fr 1fr;
@@ -818,32 +707,20 @@
   
   
   
-  /**
-   * responsive for large than 1200px screen
-   */
-  
   @media (min-width: 1200px) {
   
-    /**
-     * REUSED STYLE
-     */
+  
   
     .container,
     .header { max-width: 1140px; }
   
   
   
-    /**
-     * ABOUT
-     */
   
     .about .grid-list { gap: 50px; }
   
   
-  
-    /**
-     * CONTACT
-     */
+ 
   
     .contact-card { gap: 150px; }
   
@@ -852,35 +729,22 @@
   
   
   
-  
-  /**
-   * responsive for large than 1400px screen
-   */
-  
+ 
   @media (min-width: 1400px) {
   
-    /**
-     * REUSED STYLE
-     */
+   
   
     .container,
     .header { max-width: 1320px; }
   
   
   
-    /**
-     * HERO
-     */
   
     .hero .container { grid-template-columns: 1fr 0.8fr; }
   
     .hero .section-text { --fs-5: 2.4rem; }
   
   
-  
-    /**
-     * ABOUT
-     */
   
     .about .wrapper { gap: 100px; }
   
